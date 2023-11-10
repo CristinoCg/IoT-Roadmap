@@ -1,98 +1,95 @@
-# Road To become an IoT Developer ✔️
+# Caminho para se tornar um desenvolvedor IoT: ✔️
 
-I have split this post to 2 road ways :
+ Este Roadmap está dividido em dois caminhos:
 
-- Embedded IoT Developer 🧑‍💻
-- IoT Application Developer 🧑‍💻
+- Desenvolvedor IoT de Embarcados 🧑‍💻
+- Desenvolvedor de Aplicações de IoT🧑‍💻
 
-The Way the road maps are structured are as follows:
+Os roadmaps estão estruturados da seguinte forma:
+- Linguagens de Programação
+- Conceitos
+- Ferramentas
 
-- Programming Languages
-- Concepts
-- Tools
+## Desenvolvedor de IoT Embarcado
 
-## Embedded IoT Developer
+### Linguagens de Programação 💻:
 
-### Programming Languages 💻:
+- C Embarcado (Obrigatório)
+- C++ (Obrigatório)
+- Python (Obrigatório)
+- Scripting em Bash (Bom ter)
+- Rust (Bom ter)
 
-- Embedded C (Must Have)
-- C++ (Must Have)
-- Python (Must Have)
-- Bash Scripting (Nice To have)
-- Rust (Nice To have)
+Essas linguagens de programação vão te dar um bom ponto de partida para começar a jornada embarcada, onde C++ e C Embarcado são o mínimo necessário para começar.
 
-Those Programming Languages are going to give you a head start to kickstart the embedded journey where C++ and Embedded C are
-the bare minimum to get started
+#### Conceitos 🧠:
 
-#### Concepts 🧠:
+- RTOS (Obrigatório)
+- Cadeia de Valor de IoT (Obrigatório)
+- Segurança em IoT (Bom ter)
+- Comunicação Sem Fio (Obrigatório)
+- Fundamentos de Sistemas Operacionais (Obrigatório)
+- Noções Básicas de Computação em Nuvem (Bom ter)
+- Linux (Obrigatório)
+- Serviços da Web (Bom ter)
+- Sistemas de Pub/Sub (Obrigatório)
+- Padrões de Design Embarcados (Obrigatório)
+- Redes (Bom ter)
 
-- RTOS (Must Have)
-- IoT Value Chain (Must Have)
-- IoT Security (Nice To Have)
-- Wireless Communication (Must Have)
-- OS Fundamentals (Must Have)
-- Cloud Computing Basics (Nice To Have)
-- Linux (Must Have)
-- Web Services (Nice To Have)
-- Pub / Sub Systems (Must Have)
-- Embedded Design Patterns (Must Have)
-- Networks (Nice To Have)
+Esses conceitos são essenciais para trabalhar confortavelmente no desenvolvimento de soluções IoT.
 
-These Concepts are mandatory in order to be able to work comfortablly developing IoT Solutions.
-
-### Tools 🧰:
+### Ferramentas 🧰:
 
 - Platform IO
 - CMake
 - Esp IDF
 
-### Target Architectures
+### Arquiteturas Alvo
 
 - RISC
 - CISC
 
-The difference between CISC and RISC Targets should be understandable during development of Embedded IoT Solutions
+A diferença entre as arquiteturas CISC e RISC deve ser compreendida durante o desenvolvimento de soluções IoT embarcadas.
 
-You Can try the Following Targets / Dev Boards:
+Você pode experimentar os seguintes alvos/placas de desenvolvimento:
 
-#### Targets
+#### Alvos
 
 - STM32 (Blue/Black Pill)
 - Esp32 / NodeMCU
-- Raspberry Pi (Embedded Linux)
-- BeagleBone (Embedded Linux)
-- Jetson Nano (Embedded Linux)
+- Raspberry Pi (Linux Embarcado)
+- BeagleBone (Linux Embarcado)
+- Jetson Nano (Linux Embarcado)
 
-To Work with those Targets and get something useful out of them you have to understand the target peripherals which include the following:
+Para trabalhar com esses alvos e obter algo útil deles, é necessário entender os periféricos do alvo, que incluem:
 
-#### Microcontoller Peripherals 🎮
+#### Periféricos do Microcontrolador 🎮
 
 - GPIO
 - Timers
 - PWM
 - ADC
 - DAC
-- Serial Communication(SPI,I2C,UART)
+- Comunicação Serial (SPI, I2C, UART)
 - Wifi
-- Memory(Flash,SRAM,EEPROM)
+- Memória (Flash, SRAM, EEPROM)
 - BLE
 
-### Here is a High Level Mindmap 🗺️:
+### Mapa Mental de Alto Nível 🗺️:
 
-!["Embedded IoT Developer"](Embedded.JPG)
+![Desenvolvedor de IoT Embarcado](Embedded.JPG)
 
-## IoT Application Developer
+## Desenvolvedor de Aplicações IoT
 
-For you to become an iot application developer you have to wear a lot of hats and be knowledgable in alot of things ,
-you should not think that you have to expert at all of these but atleast have some idea on how to work with the following:
+Para se tornar um desenvolvedor de aplicações IoT, você precisa fazer diversos papéis e ter conhecimento em muitas coisas. Você não deve pensar que precisa ser especialista em tudo, mas pelo menos ter uma ideia de como trabalhar com o seguinte:
 
 - Frontend
 - Backend
-- Cross Platform Mobile Development (Nice To have)
+- Desenvolvimento Mobile Multiplataforma (Bom ter)
 
-you can choose from the below frameworks whatever you feel comfortable working with or have worked with before.
+Você pode escolher entre os seguintes frameworks, dependendo do que você se sentir confortável em trabalhar ou já ter trabalhado antes.
 
-### Programming Languages 💻:
+### Linguagens de Programação 💻:
 
 - TypeScript
 - JavaScript
@@ -114,80 +111,78 @@ you can choose from the below frameworks whatever you feel comfortable working w
 - NestJS
 - FastAPI
 - Flask
-- DJango
+- Django
 - SpringBoot
 - GO
 
-#### Mobile Technologies
+#### Tecnologias Móveis
 
 - Flutter
 - React Native
 
-### Concepts 🧠
+### Conceitos 🧠
 
-- IoT Value Chain
-- IoT Security
-- Wireless Communication
-- OS Fundamentals
-- Cloud Computing Basics
+- Cadeia de Valor de IoT
+- Segurança em IoT
+- Comunicação Sem Fio
+- Fundamentos de Sistemas Operacionais
+- Noções Básicas de Computação em Nuvem
 - Linux
-- Web Services
-- Pub / Sub Systems
-- System Integration
-- Networks
-- M2M
-- Design Patterns
+- Serviços da Web
+- Sistemas de Publicação/Assinatura
+- Integração de Sistemas
+- Redes
+- M2M (Máquina a Máquina)
+- Padrões de Design
 
-For Realtime operating systems you just have to understand how they work and how to deal with event loops because you can work with one.
+Para Sistemas Operacionais de Tempo Real, você só precisa entender como eles funcionam e como lidar com loops de eventos, pois você pode trabalhar com um.
 
-### RTOS
+### RTOS (Sistemas Operacionais de Tempo Real)
 
 - Mynewt
 - FreeRTOS
 - Amazon FreeRTOS
 - NuttX
+Para os Protocolos da Internet, é obrigatório que você entenda como eles funcionam com diferentes arquiteturas, como cliente/servidor ou sistemas de pub/sub.
 
-For Internet Protocols they are mandatory that you understand how they work with different Architectures,
-for example client / server or pub / sub systems
-
-### Internet Protocols
+### Protocolos da Internet
 
 - HTTP/HTTPS
 - MQTT
 - COAP
 - AMQP
 
-### Wireless Technologies
+### Tecnologias Sem Fio
 
 - LORA
 - BLE
 - WIFI
 - NFC
-  Industrial protocols are not mandatory but they are nice to have and to understand how they work and if you want to work in the
-  IIOT space then they will become very important and give you a headstart.
 
-### Industrial Protocols
+Os protocolos industriais não são obrigatórios, mas é bom tê-los e entender como funcionam. Se você quiser trabalhar no espaço IIOT, eles se tornarão muito importantes e fornecerão uma vantagem inicial.
+
+### Protocolos Industriais
 
 - OPC UA
 - Modbus
 
-### Distributed Computing
+### Computação Distribuída
 
-You should at least know one of the following message brokers to implement distributed computing and asynchronous code execution
+Você deve pelo menos conhecer um dos seguintes corretores de mensagens para implementar a computação distribuída e a execução de código assíncrono.
 
 - Microservices
 
-##### Message Brokers
+##### Corretores de Mensagens
 
 - Kafka
 - RabbitMQ
 - HiveMQ
 - EMQX
-- ESB eg. WSO2
+- ESB, por exemplo, WSO2
 
-You have to know atleast one Relational database, one nosql database and one Timeseries database as well as keystore databases.
+Você precisa conhecer pelo menos um banco de dados relacional, um banco de dados NoSQL e um banco de dados de Timeseries, bem como bancos de dados de chaves.
 
-### Databases
+### Bancos de Dados
 
 - Mysql
 - Postgresql
@@ -196,10 +191,9 @@ You have to know atleast one Relational database, one nosql database and one Tim
 - Redis Cache
 - InfluxDB
 
-Time to market is really important to Enterprise companies that's why the use Application Enablement Platform,
-where they can develop iot solutions faster and below are the most popular ones in the market varying from open source to fully paid solutions
+O tempo de comercialização é realmente importante para as empresas, é por isso que usam Plataformas de Habilitação de Aplicações, onde podem desenvolver soluções IoT mais rapidamente. Abaixo estão as mais populares no mercado, variando de soluções de código aberto a soluções totalmente pagas.
 
-### IoT Platforms(AEP)
+### Plataformas IoT (AEP)
 
 - ThingsBoard
 - The Things Industries
@@ -210,27 +204,26 @@ where they can develop iot solutions faster and below are the most popular ones 
 - Cumulocity
 - Data Cake
 
-### Cloud Native Technologies & Tools 🧰
+### Tecnologias e Ferramentas Nativas em Nuvem 🧰
 
 - Kubernetes
 - Docker
 - Prometheus
 
-#### Monitoring 🖥️
+#### Monitoramento 🖥️
 
-Monitoring your assets and applications and servers is key to successful IoT deployment and maintenance Grafana is one of the best monitoring and
-visualization tools
+Monitorar seus ativos, aplicativos e servidores é fundamental para a implantação e manutenção bem-sucedidas de IoT. Grafana é uma das melhores ferramentas de monitoramento e visualização.
 
 - Grafana
 
-### IoT CLoud Providers
+### Provedores de Nuvem IoT
 
-There are two types of AEPs One we call as _Application enablement platform_ and one we call as _Hyperscalers_, Amazon and Microsoft are conisdered as Market Hyperscalers
-who enter the cloud and iot space to provide premade services to accelarate your time to market and development cycle
+Existem dois tipos de AEPs: chamamos de _Plataforma de Habilitação de Aplicações_ e _Hiperscalers_. Amazon e Microsoft são considerados como Hiperscalers de Mercado que entram no espaço de nuvem e IoT para fornecer serviços prontos para acelerar seu tempo de comercialização e ciclo de desenvolvimento.
 
-- AWS IOT
-- AZure IOT
+- AWS IoT
+- Azure IoT
 
-### Here is a High Level Mindmap 🗺️:
+### Aqui está um Mapa Mental de Alto Nível 🗺️:
 
-!["IoT Application Developer"](App-Software.JPG)
+![Desenvolvedor de Aplicações IoT](App-Software.JPG)
+
